@@ -1,0 +1,50 @@
+div_top{
+    display: block;
+    width: 100% ;
+    height: 80px; 
+    image-orientation: inherit;
+}
+
+.container {
+    position: relative;
+}
+
+#texto {
+    position: absolute;
+    top: 300px;
+    left: 45%;
+    font-size: xx-large;
+    color: #60FF8E;
+}
+
+nav {
+    display: inline-block;
+    text-align: center;
+}
+
+ul {
+    display: inline-flexbox;
+    text-align: inherit;
+}
+li{
+    display: inline;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    display: block;
+    border-radius: 50% 50% 0% 0%;
+    background-color: #389b96;
+    font: black medium 'Times New Roman', Times, serif;
+    text-align: auto;
+    border-color: transparent;
+    width: 100px;
+    height: 60px;
+    margin-left: 90%;
+    margin-right: 90%;
+}
